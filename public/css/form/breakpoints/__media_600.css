@@ -67,18 +67,25 @@
         gap: 20px;
         background-color: white;
         text-align: center;
+        background-size: cover;
+        background-position: 0,0;
+        background-repeat: no-repeat;
     }
     section#login form.login{
-        background-image: url("../../../images/Slider/img/crop2.jpg");
+        background-image: url("../../../images/Slider/img/crop4.jpg");
 
     }
     section#register form.register{
-        background-image: url("../../../images/Team/Anita/IMG-20230509-WA0003.jpg");
+        background-image: url("../../../images/Slider/img/crop2.jpg");
+        /*background-image: url("../../../images/Team/Anita/IMG_3988.JPG");*/
     }
 
     .mobile-link.register,
     .mobile-link.login{
         display: block;
+    }
+    /*.mobile-link.login{}*/
+    .mobile-link.register a{
     }
 
 
