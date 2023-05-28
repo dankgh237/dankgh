@@ -23,15 +23,14 @@ inputs.forEach((input,i)=>input.oninput=e=>{
 
 inputs.forEach(input=> {
     input.placeholder = "";
-    input.addEventListener("focusout",(e)=>
+    input.addEventListener("focusout",()=>
         input.value === ''?input.parentNode.children[0].classList.remove("focus"):null);
-        input.addEventListener("focus",e=> input.parentNode.children[0].classList.add("focus"));
-        input.addEventListener("focusin",e=> input.parentNode.children[0].classList.add("focus"));
+        input.addEventListener("focus",()=> input.parentNode.children[0].classList.add("focus"));
+        input.addEventListener("focusin",()=> input.parentNode.children[0].classList.add("focus"));
 });
-document.addEventListener("DOMContentLoaded",(e)=> {
+document.addEventListener("DOMContentLoaded",()=> {
     document.querySelector("#preloader").remove();
     inputs.forEach(input=>{
         if(input.autocomplete) input.parentNode.children[0].classList.add("focus");
     });
-
-})
+});
