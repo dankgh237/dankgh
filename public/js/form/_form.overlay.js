@@ -3,7 +3,7 @@ const btn_sign_up_overlay = document.querySelector("#form-overlay .sign-up-overl
 const btn_mobile_login = document.querySelector("section#login .mobile-link.login a");
 const btn_mobile_register = document.querySelector("section#register .mobile-link.register a");
 const form_overlay = document.querySelector("#form-overlay");
-const preloader = document.querySelector(".preloader");
+
 
 const title = (title) => (document.querySelector("title").innerHTML = title);
 const login = "| &#10057; DankGh &#10132; Login Form |";

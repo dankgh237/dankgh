@@ -3,6 +3,7 @@ section#register form.register div.form-entry div.input-group input{
     padding: 18px;
     outline: 1px solid gainsboro;
     background-color: rgba(0,0,0,0.1);
+    background-color: #d9d9d9;
     border: none;
     width: 100%;
     font-size: 18px;

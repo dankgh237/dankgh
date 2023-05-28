@@ -3,7 +3,7 @@
         height: 100vh;
         width: 100vw;
         overflow: hidden;
-        background-color: gainsboro;
+        /*background-color: green;*/
     }
     main#container{
         width: 100vw;
@@ -12,7 +12,8 @@
         grid-template-columns: unset;
         box-shadow: unset;
         border-radius: unset;
-        background-color: gainsboro;
+        /*background-color: gainsboro;*/
+        /*background-color: green;*/
     }
     main#container:hover{
         box-shadow: unset;
@@ -64,8 +65,15 @@
         justify-content: center;
         align-items: center;
         gap: 20px;
-        background-color: #ececec;
+        background-color: white;
         text-align: center;
+    }
+    section#login form.login{
+        background-image: url("../../../images/Slider/img/crop2.jpg");
+
+    }
+    section#register form.register{
+        background-image: url("../../../images/Team/Anita/IMG-20230509-WA0003.jpg");
     }
 
     .mobile-link.register,
