@@ -1,0 +1,11 @@
+section#login form.login div.form-entry div.input-group input,
+section#register form.register div.form-entry div.input-group input{
+    padding: 18px;
+    outline: 1px solid gainsboro;
+    background-color: rgba(0,0,0,0.1);
+    border: none;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 3px;
+    color: rgba(0,0,0,0.6);
+}

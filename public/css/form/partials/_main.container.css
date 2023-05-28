@@ -1,0 +1,17 @@
+main#container{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 4px gainsboro,
+    0 3px 3px 3px gainsboro;
+    position: relative;
+    overflow: hidden;
+    width: 800px;
+    max-width: 100%;
+    min-height: 600px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+}
+main#container:hover{
+    box-shadow: 0 6px 6px 6px gainsboro,
+    0 5px 5px 5px gainsboro;
+}

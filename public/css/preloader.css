@@ -1,0 +1,147 @@
+body {
+  width: 100dvw;
+  height: 100dvh;
+}
+
+#preloader {
+  background: #fff;
+  background-color: #222534;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 9999;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+#preloader .preloader-div {
+  background-color: transparent;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  position: relative;
+  left: -40px;
+}
+#preloader .preloader-div div {
+  display: flex;
+  height: 25px;
+  width: 25px;
+  background-color: #222534;
+  border-radius: 40%;
+}
+#preloader .preloader-div div:nth-child(1) {
+  background-color: #3b5998;
+  animation-name: pulse, grow-1;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+  position: absolute;
+  left: 0;
+}
+#preloader .preloader-div div:nth-child(2) {
+  background-color: #dc4e41;
+  animation-name: pulse, grow-2;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+  position: absolute;
+  left: 25px;
+}
+#preloader .preloader-div div:nth-child(3) {
+  background-color: #4edc41;
+  animation-name: pulse, grow-3;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+  position: absolute;
+  left: 50px;
+}
+#preloader .preloader-div div:nth-child(4) {
+  background-color: #dc41d4;
+  animation-name: pulse, grow-4;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+  position: absolute;
+  left: 75px;
+}
+
+@keyframes grow-1 {
+  25% {
+    background-color: #dc4e41;
+  }
+  50% {
+    background-color: #4edc41;
+  }
+  75% {
+    background-color: #dc41d4;
+  }
+  100% {
+    transform: translateX(60px);
+    background-color: #3b5998;
+  }
+}
+@keyframes grow-2 {
+  25% {
+    background-color: #4edc41;
+  }
+  50% {
+    background-color: #dc41d4;
+  }
+  75% {
+    background-color: #3b5998;
+  }
+  100% {
+    background-color: #dc4e41;
+    transform: translateX(30px);
+  }
+}
+@keyframes grow-3 {
+  25% {
+    background-color: #dc41d4;
+  }
+  50% {
+    background-color: #3b5998;
+  }
+  75% {
+    background-color: #dc4e41;
+  }
+  100% {
+    background-color: #4edc41;
+    transform: translateX(-30px);
+  }
+}
+@keyframes grow-4 {
+  25% {
+    background-color: #3b5998;
+  }
+  50% {
+    background-color: #dc4e41;
+  }
+  75% {
+    background-color: #4edc41;
+  }
+  100% {
+    background-color: #dc41d4;
+    transform: translateX(-60px);
+  }
+}

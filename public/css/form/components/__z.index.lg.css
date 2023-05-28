@@ -1,0 +1,6 @@
+section#login{
+    z-index: 2;
+}
+section#register{
+    z-index: -2;
+}

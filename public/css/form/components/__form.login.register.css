@@ -1,0 +1,11 @@
+section#login form.login,
+section#register form.register{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #efefef;
+    padding: 0 25px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}

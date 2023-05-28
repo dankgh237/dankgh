@@ -1,0 +1,53 @@
+section#form-overlay{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    /*background: linear-gradient(to right, #FF4B2B, #FF416C);*/
+    color: #efefef;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+section#form-overlay .sign-up-overlay,
+section#form-overlay .sign-in-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /*background: orangered;*/
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.6s ease-in-out;
+}
+section#form-overlay .sign-up-overlay{
+    /*background: linear-gradient(to right, rgba(255,70,37,100%), rgba(255,65,108,100%));*/
+    /* background-image: url("../images/IMG_2718.JPG"); */
+    background-image: url("../../../images/Team/Anita/IMG_2718.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    z-index: 2;
+}
+section#form-overlay .sign-in-overlay{
+    /*background: linear-gradient(to right, rgb(34, 145, 4), rgb(65, 255, 74));*/
+    background-image: url("../../../images/Team/Anita/IMG_3988.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    color: white;
+    font-weight: bolder;
+    z-index: -2;
+}
+
+section#form-overlay h2{
+    font-weight: bolder;
+    font-size: 28px;
+}

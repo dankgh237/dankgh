@@ -1,0 +1,6 @@
+section#login form.login div.form-entry,
+section#register form.register div.form-entry{
+    display: grid;
+    gap: 20px;
+
+}

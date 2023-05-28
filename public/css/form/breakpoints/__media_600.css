@@ -1,0 +1,77 @@
+@media screen and (max-width: 600px){
+    body{
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
+        background-color: gainsboro;
+    }
+    main#container{
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: unset;
+        box-shadow: unset;
+        border-radius: unset;
+        background-color: gainsboro;
+    }
+    main#container:hover{
+        box-shadow: unset;
+    }
+    section#form-overlay{
+        position: absolute;
+        right: 0;
+        top: 0%;
+        height: 100%;
+        width: 100%;
+        color: #efefef;
+        border-radius: unset;
+        transition: all 0.5s ease-in-out;
+        backface-visibility: hidden;
+    }
+
+    section#form-overlay .sign-up-overlay{
+        /* background-image: url("../images/IMG_3988.JPG"); */
+        background-image: url("../../../images/Team/Anita/IMG_3988.JPG");
+        z-index: 2;
+        transform: translateX(0%);
+        transition: all 0.5s ease-in-out;
+    }
+    section#form-overlay .sign-in-overlay{
+        background-image: url("../../../images/Team/Anita/IMG_2718.JPG");
+        z-index: 4;
+        transform: translateX(0%);
+        transition: all 0.5s ease-in-out;
+    }
+
+    section#login ,
+    section#register{
+        height: 100%;
+        width: 100%;
+        transform: translateX(100%);
+        transition: all 0.5s ease-in-out;
+    }
+    section#login{
+        z-index: 3;
+    }
+    section#register{
+        z-index: 1;
+    }
+
+    section#login form.login,
+    section#register form.register{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        background-color: #ececec;
+        text-align: center;
+    }
+
+    .mobile-link.register,
+    .mobile-link.login{
+        display: block;
+    }
+
+
+}

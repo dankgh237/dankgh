@@ -1,0 +1,26 @@
+section#form-overlay.active .sign-up-overlay{
+    /*background: green;*/
+    z-index: -2;
+    transform: translateX(-100%);
+    /*background-color: green;*/
+}
+section#form-overlay.active .sign-in-overlay{
+    /*background: green;*/
+    transform: translateX(-100%);
+    z-index: 82;
+}
+section#form-overlay.active ~ section#login {
+    transform: translateX(100%);
+    z-index: -10;
+}
+section#form-overlay.active ~ section#register{
+    transform: translateX(100%);
+    z-index: 50;
+}
+
+section#form-overlay h2{
+    text-transform: uppercase;
+    font-family: "Arial Rounded MT Bold";
+    font-weight: bolder;
+    color: white;
+}

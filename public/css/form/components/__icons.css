@@ -1,0 +1,45 @@
+section#login form.login div.form-entry div.input-group .icons,
+section#register form.register div.form-entry div.input-group .icons{
+    position: absolute;
+    right: 0;
+    top: calc((100% - 55px)/2);
+    /*color: #ff4625;*/
+    font-size: 18px;
+    width: max-content;
+    z-index: 1;
+    background-color: #d9d9d9;
+    padding: 8px 5px;
+}
+
+section#login form.login div.form-entry div.input-group .icons ._icon,
+section#register form.register div.form-entry div.input-group .icons ._icon{
+    display: none;
+    /*color: green;*/
+    cursor: pointer;
+    color: #7575f5;
+}
+section#login form.login div.form-entry div.input-group .icons ._icon *,
+section#register form.register div.form-entry div.input-group .icons ._icon *{
+   pointer-events: none;
+}
+section#login form.login div.form-entry div.input-group .icons ._icon.clearable,
+section#login form.login div.form-entry div.input-group .icons ._icon.password-visibility-on,
+section#login form.login div.form-entry div.input-group .icons ._icon.password-visibility-off,
+section#register form.register div.form-entry div.input-group .icons ._icon.clearable,
+section#register form.register div.form-entry div.input-group .icons ._icon.password-visibility-on,
+section#register form.register div.form-entry div.input-group .icons ._icon.password-visibility-off{
+   display: none;
+}
+section#login form.login div.form-entry div.input-group .icons ._icon.clearable.focus,
+section#login form.login div.form-entry div.input-group .icons ._icon.password-visibility-on.focus,
+section#login form.login div.form-entry div.input-group .icons ._icon.password-visibility-off.focus,
+section#register form.register div.form-entry div.input-group .icons ._icon.clearable.focus,
+section#register form.register div.form-entry div.input-group .icons ._icon.password-visibility-on.focus,
+section#register form.register div.form-entry div.input-group .icons ._icon.password-visibility-off.focus{
+   display: inline;
+}
+section#login form.login div.form-entry div.input-group .icons ._icon.input-icon,
+section#register form.register div.form-entry div.input-group .icons ._icon.input-icon{
+    display: inline;
+    font-size: 34px;
+}

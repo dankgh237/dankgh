@@ -1,0 +1,4 @@
+section#login form.login div.form-entry div.input-group,
+section#register form.register div.form-entry div.input-group{
+    position: relative;
+}

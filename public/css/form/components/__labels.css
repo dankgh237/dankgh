@@ -1,0 +1,18 @@
+section#login form.login div.form-entry div.input-group label,
+section#register form.register div.form-entry div.input-group label{
+    position: absolute;
+    font-size: 20px;
+    color: #797979;
+    padding: 18px;
+    top: calc((100% - 0)/2);
+    font-weight: 500;
+    pointer-events: none;
+    transition: all 0.2s ease-in-out;
+}
+
+section#login form.login div.form-entry div.input-group label.focus,
+section#register form.register div.form-entry div.input-group label.focus{
+    transform: translateY(-16px);
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+}

@@ -1,0 +1,19 @@
+section#login form.login div.form-entry .input-error,
+section#register form.register div.form-entry .input-error{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 10px;
+    text-transform: capitalize;
+
+}
+section#login form.login div.form-entry .input-error.success,
+section#register form.register div.form-entry .input-error.success{
+    background: green;
+    color: White;
+}
+section#login form.login div.form-entry .input-error.error,
+section#register form.register div.form-entry .input-error.error{
+    background: #f6c2ae;
+    color: orangered;
+}
