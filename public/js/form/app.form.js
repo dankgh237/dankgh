@@ -5,3 +5,4 @@ import "./_form.handle.js";
 import "./_media.queries.js";
 import "./_form.login.js";
 import "./_form.register.js";
+import "./__preloader.js";
