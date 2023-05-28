@@ -29,6 +29,7 @@ inputs.forEach(input=> {
         input.addEventListener("focusin",e=> input.parentNode.children[0].classList.add("focus"));
 });
 document.addEventListener("DOMContentLoaded",(e)=> {
+    document.querySelector("#preloader").remove();
     inputs.forEach(input=>{
         if(input.autocomplete) input.parentNode.children[0].classList.add("focus");
     });
