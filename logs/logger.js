@@ -1,6 +1,6 @@
 const path = require("path");
 const fs = require("fs");
-const logs = path.resolve(__dirname, "../var/task/tmp/app.log");
+const logs = path.resolve(__dirname, "/tmp/app.log");
 const {log} = require("./log");
 
 console.log(logs);
