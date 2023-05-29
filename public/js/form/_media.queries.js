@@ -11,6 +11,10 @@ const media = window.matchMedia("(max-width:600px)");
 
 if(media.matches){
     mainContainer.style.cssText = `background-image: url("../../../images/Team/Anita/IMG_2718.JPG")`;
+    sign_in_overlay.style.cssText = `z-index:4;`;
+    loginForm.style.cssText = `z-index:3;`;
+    sign_up_overlay.style.cssText = `z-index:2;`;
+    registerForm.style.cssText = `z-index:1;`;
     btn_sign_in_overlay.onclick = e=>{
         e.preventDefault();
         sign_in_overlay.style.cssText = `z-index:1;transform:translateX(100%);`;
