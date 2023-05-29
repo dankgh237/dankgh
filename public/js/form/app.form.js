@@ -5,7 +5,7 @@ import "./_form.handle.js";
 import "./_media.queries.js";
 import "./_form.login.js";
 import "./_form.register.js";
-import  "/js/pull.to.refresh.js";
+// import  "/js/pull.to.refresh.js";
 
 
 
